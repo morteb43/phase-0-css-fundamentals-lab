@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Image Sizing */
+img {
+  width: 900px;
+}
+
+/* Title, nav links, caption
+and text blocks alignment */
+h1, nav,
+section#featured-property figcaption,
+section#featured-property p {
+  text-align: center;
+}
+
+/* Nav link padding */
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aquamarine;
+}
+
+/* Image caption font size */
+figcaption {
+  font-size: 10px;
+}
+
+section#featured-property img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Descendent slector for
+text block width restriction
+and vertical spacing */
+section#featured-property p {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+}
+
+section#details div {
+  width: 25%;
+  text-align: center;
+  float: left;
+  background-color: aquamarine;
+}
